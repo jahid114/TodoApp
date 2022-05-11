@@ -1,0 +1,33 @@
+.container {
+    background-color: #040312;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+h1 {
+    color: #C0CC1F;
+    margin-bottom: 1rem;
+}
+.todos{
+    background-color: #120F2E;
+    color: #43AB7E;
+    padding: 1rem;
+    border-radius: .6rem;
+    width: 50%;
+    overflow: hidden;
+    min-height: 60vh;
+}
+
+@media screen and (max-width: 992px) {
+    .todos {
+        width: 80%;
+        padding: 0.5rem;
+    }
+    h1{
+        margin-bottom: 0.5rem;
+    }
+}
