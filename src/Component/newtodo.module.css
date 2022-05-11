@@ -46,16 +46,18 @@ form button{
     cursor: pointer;
     margin: 0 auto;
     background-color: #43AB7E;
-    color: white;
+    color: #120F2E;
     padding: 0.5rem;
     display: block;
     font-weight: 600;
     margin-bottom: 0.5rem;
     margin-top: 0.3rem;
+    box-shadow: 5px 10px 10px #07041F;
 }
 
 form button:hover{
     transform: scale(1.02,1.05);
+    font-weight: 520;
 }
 
 @media screen and (max-width: 992px) {
